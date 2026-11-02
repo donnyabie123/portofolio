@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Donny Abie Tri Harimukti - Junior Programmer</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<style>
+:root { --navy: #12263f; --navy-2: #1b3556; --amber: #f2a900; --soft: #f4f6f9; }
+html { scroll-padding-top: 70px; scroll-behavior: smooth; }
+body { background: #fff; color: #1f2933; }
+.navbar { background: var(--navy); }
+.navbar-brand span { color: var(--amber); }
+.navbar-brand { white-space: normal; font-size: 1.05rem; }
+.nav-link { color: #c9d4e3 !important; }
+.nav-link:hover { color: #fff !important; }
+.hero { background: var(--navy); color: #fff; padding: 5rem 0 4.5rem; }
+.hero .lead { color: #c9d4e3; }
+.avatar { width: 170px; height: 170px; border-radius: 12px; background: var(--navy-2); border: 3px solid var(--amber); display: flex; align-items: center; justify-content: center; font-size: 3.5rem; font-weight: 700; color: var(--amber); margin: 0 auto; }
+.avatar img { width: 100%; height: 100%; object-fit: cover; border-radius: 9px; }
+.btn-amber { background: var(--amber); border-color: var(--amber); color: #12263f; font-weight: 600; }
+.btn-amber:hover { background: #d89500; border-color: #d89500; color: #12263f; }
+.btn-line { border-color: #6b819f; color: #fff; }
+.btn-line:hover { background: #fff; color: var(--navy); }
+.block { padding: 4rem 0; }
+.block.alt { background: var(--soft); }
+.title { font-weight: 700; color: var(--navy); margin-bottom: 1.75rem; }
+.title::after { content: ""; display: block; width: 44px; height: 4px; background: var(--amber); margin-top: .5rem; }
+.sub { color: #5b6b7e; margin-bottom: 2rem; }
+.timeline { border-left: 3px solid var(--navy); padding-left: 1.5rem; }
+.timeline .item { position: relative; margin-bottom: 2rem; }
+.timeline .item:last-child { margin-bottom: 0; }
+.timeline .item::before { content: ""; position: absolute; left: calc(-1.5rem - 9px); top: .35rem; width: 15px; height: 15px; border-radius: 50%; background: var(--amber); border: 3px solid #fff; box-shadow: 0 0 0 2px var(--navy); }
+.when { font-size: .85rem; color: #5b6b7e; }
+.proj { border: 1px solid #dde3ec; border-left: 5px solid var(--amber); border-radius: 6px; background: #fff; height: 100%; }
+.proj h3 { font-size: 1.05rem; font-weight: 700; color: var(--navy); }
+.tech { font-size: .85rem; color: #6b7a8c; }
+.proj p { font-size: .93rem; color: #4a5a6c; }
+.edu { border-bottom: 1px solid #e3e8ef; padding: 1rem 0; align-items: center; }
+.edu:last-child { border-bottom: 0; }
+.edu .when { font-weight: 700; color: var(--navy); }
+.contact { background: var(--navy); color: #fff; padding: 4rem 0; }
+.contact p { color: #c9d4e3; }
+.contact a.mail { color: var(--amber); font-weight: 600; }
+footer { background: #0d1c30; color: #8fa1b8; font-size: .85rem; padding: 1.25rem 0; }
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#atas">Portofolio <span>-</span> Donny Abie Tri Harimukti</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Buka menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#pengalaman">Pengalaman</a></li>
+        <li class="nav-item"><a class="nav-link" href="#proyek">Proyek</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skill">Skill</a></li>
+        <li class="nav-item"><a class="nav-link" href="#pendidikan">Pendidikan</a></li>
+        <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="atas">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-md-4 order-md-2">
+        <div class="avatar"><img src="foto.jpg" alt="Donny Abie Tri Harimukti"></div>
+      </div>
+      <div class="col-md-8 order-md-1">
+        <p class="mb-2" style="color: var(--amber); font-weight: 600;">Junior Programmer, PT Emco Digital Indonesia</p>
+        <h1 class="display-5 fw-bold mb-3">Donny Abie Tri Harimukti</h1>
+        <p class="lead mb-4">Mengerjakan aplikasi web berbasis PHP dan MySQL untuk logistik, akuntansi, dan armada. Tugas sehari-hari memperbaiki bug dan menambah fitur di <strong class="text-white">20+ sistem</strong>. Sambil kerja, saya kuliah S1 Teknik Informatika di UNINDRA kelas karyawan.</p>
+        <a class="btn btn-amber me-2 mb-2" href="#proyek">Lihat proyek</a>
+        <a class="btn btn-line mb-2" href="#kontak">Hubungi saya</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="block" id="pengalaman">
+  <div class="container">
+    <h2 class="title">Pengalaman Kerja</h2>
+    <div class="timeline">
+      <div class="item">
+        <div class="when">April 2026 - sekarang</div>
+        <h3 class="h5 fw-bold mb-1">Junior Programmer</h3>
+        <div class="fw-semibold mb-2">PT Emco Digital Indonesia</div>
+        <p class="mb-0">Mengerjakan aplikasi web untuk operasional logistik: memperbaiki bug, menambah fitur di modul booking dan manifest, dan mempercepat query serta laporan database.</p>
+        <p class="mb-0 mt-2">Sistem yang dihandle antara lain milik PT Ginta Jasminindo Logistics (Ginta Cargo), PT Karura Freight Forwarding &amp; Logistics, dan PT Semesta Mandiri Transport, serta 10+ perusahaan logistik lainnya.</p>
+      </div>
+      <div class="item">
+        <div class="when">Januari - Maret 2023</div>
+        <h3 class="h5 fw-bold mb-1">IT Support (PKL)</h3>
+        <div class="fw-semibold mb-2">CV Sumber Daya Cipta</div>
+        <p class="mb-0">Membantu kebutuhan kantor selama PKL, terutama membuat brosur, desain grafis, dan logo, sambil belajar dasar IT Support. Nilai PKL 94 (A).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block alt" id="proyek">
+  <div class="container">
+    <h2 class="title">Proyek yang Pernah Dikerjakan</h2>
+    <div class="row g-4">
+      <div class="col-12">
+        <div class="proj p-4">
+          <h3>Digicomputer: toko online komputer</h3>
+          <p>Website toko komputer yang saya buat dengan CodeIgniter 4 dan Tailwind CSS. Pengunjung bisa mencari produk, memilih varian, menyimpan ke wishlist, lalu checkout dari keranjang dengan pilihan kurir dan batas waktu bayar 24 jam. Stok dicek otomatis, dan ulasan hanya bisa ditulis pembeli yang pesanannya sudah selesai. Setiap perubahan status pesanan dicatat, dan admin dikelola di panel terpisah.</p>
+          <div class="tech">CodeIgniter 4, PHP, MySQL, Tailwind CSS</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="proj p-4">
+          <h3>Chatbot AI di dashboard</h3>
+          <p>Chatbot di dashboard untuk menjawab pertanyaan soal data pengiriman: pengirim, penerima, nomor AWB, berat, DRS, manifest, tracking, dan booking. Ada model AI cadangan supaya batas pemakaiannya lebih longgar, dan riwayat chat tidak hilang waktu pindah menu.</p>
+          <div class="tech">PHP, JavaScript, AI</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="proj p-4">
+          <h3>Perawatan Kendaraan</h3>
+          <p>Menu baru untuk memantau kondisi kendaraan: status unit, odometer, dan penggantian komponen. Aturan servis bisa diatur per tipe unit. Begitu pengantaran diterima, sparepart yang dipakai otomatis tercatat terpakai.</p>
+          <div class="tech">PHP, MySQL</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="proj p-4">
+          <h3>Delivery Sheet: rute dan peta</h3>
+          <p>Di Delivery Sheet (DRS), AWB sekarang otomatis diurutkan dari lokasi terdekat. Peta menampilkan titik tujuan dan garis rutenya, dan perhitungan jarak di fitur AI Route juga saya perbaiki.</p>
+          <div class="tech">PHP, JavaScript, Maps</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="proj p-4">
+          <h3>Optimasi query yang lemot</h3>
+          <p>Halaman Delivery Sheet, POD Kembali, dan POD To Invoice dulu lambat dibuka. Saya tambahkan index di tabelnya dan ubah subquery supaya tidak menghitung seluruh data sebelum dibatasi. Export Sales Aging yang terlalu berat juga saya ringankan.</p>
+          <div class="tech">MySQL, query tuning, indexing</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="proj p-4">
+          <h3>Quick Action dan pencarian menu</h3>
+          <p>Setiap user bisa memilih sendiri menu yang sering dipakai jadi pintasan di dashboard. Ada juga pencarian menu di sidebar dan top bar. Fitur ini sudah dipasang di lebih dari 10 sistem.</p>
+          <div class="tech">PHP, JavaScript</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="proj p-4">
+          <h3>News Update dengan upload video</h3>
+          <p>Fitur News Update sekarang bisa memutar video langsung di popup dashboard. Pengumuman terbaru muncul paling atas dengan status Tampil atau Expired, dan video demonya saya buat sendiri.</p>
+          <div class="tech">PHP, JavaScript</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="proj p-4">
+          <h3>Jurnal, Buku Besar, dan Neraca</h3>
+          <p>Merapikan data jurnal dan laporan keuangan: tanggal jurnal TTB dan PPN disamakan dengan tanggal invoice (Januari sampai September 2026), dan ikut mengecek selisih debit-kredit di Buku Besar serta laba tahun berjalan di Neraca Percobaan.</p>
+          <div class="tech">PHP, SQL</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="proj p-4">
+          <h3>Alur UJP per rute dan Special Order Inap</h3>
+          <p>Di verifikasi penawaran, UJP tiap rute wajib diisi sebelum penawaran bisa disetujui, lalu nilainya otomatis jadi UJP operasional. Special Order Inap juga terbuat otomatis kalau unit masuk di luar hari atau jam yang diatur di master.</p>
+          <div class="tech">PHP, MySQL</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="proj p-4">
+          <h3>Menu Rekonsiliasi Bank</h3>
+          <p>Membuat menu baru Rekonsiliasi Bank di sistem Ginta, termasuk memperbaiki export PDF dan cetak yang sebelumnya selalu kosong.</p>
+          <div class="tech">PHP, MySQL</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="proj p-4">
+          <h3>Detail Transaksi: approve finance dan akses</h3>
+          <p>Menambahkan kolom approve finance (status, tanggal, dan user yang approve) di export Detail Transaksi FESA. Di Ginta, akun Ops SUB sekarang bisa menampilkan semua asal dan tujuan.</p>
+          <div class="tech">PHP, MySQL, Excel export</div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-5">
+      <h3 class="h6 fw-bold">Pekerjaan rutin lainnya</h3>
+      <p class="mb-0">Hampir tiap minggu juga ada perbaikan dan penyesuaian export Excel dan PDF, cetak AWB dan invoice, import data lewat template Excel, pengaturan hak akses menu, dan tombol Back yang sebelumnya menghilangkan hasil pencarian. Tampilan home website DHX juga saya perbaiki supaya responsive di HP. Proyek di atas hanya sebagian: di laporan mingguan dua bulan terakhir saja tercatat 200+ task lainnya.</p>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="skill">
+  <div class="container">
+    <h2 class="title">Skill</h2>
+      <div class="row mb-2"><div class="col-md-3 fw-bold">Bahasa pemrograman</div><div class="col-md-9">PHP, JavaScript, SQL, HTML5, CSS3</div></div>
+      <div class="row mb-2"><div class="col-md-3 fw-bold">Framework dan library</div><div class="col-md-9">CodeIgniter, jQuery, Bootstrap, DataTables</div></div>
+      <div class="row mb-2"><div class="col-md-3 fw-bold">Database dan tools</div><div class="col-md-9">MySQL, phpMyAdmin, FPDF, PHPExcel, Git, dan GitHub</div></div>
+  </div>
+</section>
+
+<section class="block alt" id="pendidikan">
+  <div class="container">
+    <h2 class="title">Pendidikan dan Sertifikasi</h2>
+    <div class="bg-white border rounded px-4">
+      <div class="edu row">
+        <div class="col-md-3 when">2024 - sekarang</div>
+        <div class="col-md-9"><div class="fw-bold">S1 Teknik Informatika</div><div>Universitas Indraprasta PGRI (UNINDRA), kelas karyawan</div></div>
+      </div>
+      <div class="edu row">
+        <div class="col-md-3 when">2021 - 2024</div>
+        <div class="col-md-9"><div class="fw-bold">SMK Rekayasa Perangkat Lunak</div><div>SMK Prestasi Prima</div></div>
+      </div>
+      <div class="edu row">
+        <div class="col-md-3 when">Berlaku sampai Mei 2027</div>
+        <div class="col-md-9"><div class="fw-bold">Sertifikat BNSP: Asisten Pemrogram Junior</div><div>LSP SMKN 24 Jakarta</div></div>
+      </div>
+      <div class="edu row">
+        <div class="col-md-3 when">April 2024</div>
+        <div class="col-md-9"><div class="fw-bold">Uji Kompetensi Keahlian (UKK) RPL</div><div>Penguji eksternal Universitas AMIKOM Yogyakarta. Sangat Kompeten, nilai 91 (A).</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="kontak">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7">
+        <h2 class="fw-bold mb-3">Kontak</h2>
+        <p class="mb-4">Terbuka buat ngobrol soal pengembangan web. Silakan hubungi lewat email atau WhatsApp.</p>
+        <p class="mb-3">Email: <a class="mail" href="mailto:donnyabie7@gmail.com">donnyabie7@gmail.com</a></p>
+        <a class="btn btn-line mb-2" href="https://wa.me/6281298261308" target="_blank" rel="noopener">WhatsApp +62 812 9826 1308</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container text-center">202443501038 - Donny Abie Tri Harimukti</div>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
